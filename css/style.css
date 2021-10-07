@@ -68,6 +68,9 @@ header .feedback .feedback-box {
     display: flex;
     align-items: center;
 }
+header .feedback .feedback-box:nth-child(1) {
+    align-self: flex-start;
+}
 header .feedback .feedback-box:nth-child(2) {
     align-self: center;
 }
